@@ -38,6 +38,6 @@ func SendWX(key, message string) error {
 		return fmt.Errorf("HTTP 请求失败，状态码：%d", resp.StatusCode)
 	}
 
-	fmt.Println("消息发送成功！")
+	// fmt.Println("消息发送成功！")
 	return nil
 }
